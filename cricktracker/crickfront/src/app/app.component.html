@@ -1,0 +1,17 @@
+<header class="bg-blue-500 p-4 text-white">
+  <div class="container mx-auto flex justify-between items-center">
+    <div class="text-2xl font-bold">CrickTracker</div>
+    <nav>
+      <ul class="flex space-x-4">
+        <li><a routerLink="" class="hover:text-gray-300">Home</a></li>
+        <li><a routerLink="live" class="hover:text-gray-300">Live</a></li>
+        <li><a routerLink="history" class="hover:text-gray-300">History</a></li>
+        <li><a routerLink="point-table" class="hover:text-gray-300">Point Table</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="px-5 py-3">
+  <router-outlet></router-outlet>
+</div>
